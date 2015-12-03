@@ -1,0 +1,13 @@
+
+Simple and sample codes_link
+
+1...........http://androidsourcecode.blogspot.in/
+
+errors and solutions::::
+
+-------->>>>>http://techblogon.com/common-android-development-errors-solutions/
+
+
+Gps Tracker:::::::
+https://code.google.com/p/open-gpstracker/
+

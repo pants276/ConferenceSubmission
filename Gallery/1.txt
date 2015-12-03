@@ -1,0 +1,131 @@
+International Journal of Network Security & Its Applications (IJNSA), Vol.6, No.3, May 2014
+DOI : 10.5121/ijnsa.2014.6304 45
+SECURITY ISSUES ASSOCIATED WITH BIG DATA IN
+CLOUD COMPUTING
+Venkata Narasimha Inukollu1 , Sailaja Arsi1 and Srinivasa Rao Ravuri3
+1Department of Computer Engineering, Texas Tech University, USA
+3Department of Banking and Financial Services,Cognizant Technology Solutions, India
+ABSTRACT
+In this paper, we discuss security issues for cloud computing, Big data, Map Reduce and Hadoop
+environment. The main focus is on security issues in cloud computing that are associated with big
+data. Big data applications are a great benefit to organizations, business, companies and many
+large scale and small scale industries.We also discuss various possible solutions for the issues
+in cloud computing security and Hadoop. Cloud computing security is developing at a rapid pace
+which includes computer security, network security, information security, and data privacy.
+Cloud computing plays a very vital role in protecting data, applications and the related
+infrastructure with the help of policies, technologies, controls, and big data tools. Moreover,
+cloud computing, big data and its applications, advantages are likely to represent the most
+promising new frontiers in science.
+KEYWORDS
+Cloud Computing, Big Data, Hadoop,Map Reduce, HDFS (Hadoop Distributed File System)
+1. INTRODUCTION
+In order to analyze complex data and to identify patterns it is very important to securely store,
+manage and share large amounts of complex data.Cloud comes with an explicit security
+challenge, i.e. the data owner might not have any control of where the data is placed. The reason
+behind this control issue is that if one wants to get the benefits of cloud computing, he/she must
+also utilize the allocation of resources and also the scheduling given by the controls. Hence it is
+required to protect the data in the midst of untrustworthy processes. Since cloud involves
+extensive complexity, we believe that rather than providing a holistic solution to securing the
+cloud, it would be ideal to make noteworthy enhancements in securing the cloud that will
+ultimately provide us with a secure cloud.
+Google has introduced MapReduce [1] framework for processing large amounts of data on
+commodity hardware. Apache’s Hadoop distributed file system (HDFS) is evolving as a superior
+software component for cloud computing combined along with integrated parts such as
+MapReduce. Hadoop, which is an open-source implementation of Google MapReduce, including
+a distributed file system, provides to the application programmer the abstraction of the map and
+the reduce. With Hadoop it is easier for organizations to get a grip on the large volumes of data
+being generated each day, but at the same time can also create problems related to security, data
+access, monitoring, high availability and business continuity.
+International Journal of Network Security & Its Applications (IJNSA), Vol.6, No.3, May 2014
+46
+In this paper, we come up with some approaches in providing security. We ought a system that
+can scale to handle a large number of sites and also be able to process large and massive amounts
+of data. However, state of the art systems utilizing HDFS and MapReduce are not quite
+enough/sufficient because of the fact that they do not provide required security measures to
+protect sensitive data. Moreover, Hadoop framework is used to solve problems and manage data
+conveniently by using different techniques such as combining the k-means with data mining
+technology [3].
+1.1 Cloud Computing
+Cloud Computing is a technology which depends on sharing of computing resources than having
+local servers or personal devices to handle the applications. In Cloud Computing, the word
+“Cloud” means “The Internet”, so Cloud Computing means a type of computing in which services
+are delivered through the Internet. The goal of Cloud Computing is to make use of increasing
+computing power to execute millions of instructions per second. Cloud Computing uses networks
+of a large group of servers with specialized connections to distribute data processing among the
+servers. Instead of installing a software suite for each computer, this technology requires to install
+a single software in each computer that allows users to log into a Web-based service and which
+also hosts all the programs required by the user. There's a significant workload shift, in a cloud
+computing system.
+Local computers no longer have to take the entire burden when it comes to running applications.
+Cloud computing technology is being used to minimize the usage cost of computing resources
+[4]. The cloud network, consisting of a network of computers, handles the load instead. The cost
+of software and hardware on the user end decreases.
+The only thing that must be done at the user's end is to run the cloud interface software to connect
+to the cloud. Cloud Computing consists of a front end and back end. The front end includes the
+user'scomputer and software required to access the cloud network. Back end consists of various
+computers, servers and database systems that create the cloud. The user can access applications in
+the cloud network from anywhere by connecting to the cloud using the Internet. Some of the real
+time applications which use Cloud Computing are Gmail, Google Calendar, Google Docs and
+Dropbox etc.,
+Fig1. Cloud Computing
+International Journal of Network Security & Its Applications (IJNSA), Vol.6, No.3, May 2014
+1.2 Big Data
+Big Data is the word used to describe massive volumes of structured and unstructured data that
+are so large that it is very difficult to process this data using traditional databases and software
+technologies. The term “Big Data [5]” is
+companies who had to query loosely structured very large distributed data. The three main terms
+that signify Big Data have the following properties:
+a) Volume: Many factors contribute towards increasing Volum
+streaming data and data collected from sensors etc.,
+b) Variety: Today data comes in all types of formats
+emails, video, audio, transactions etc.,
+c) Velocity: This means how fast the data is being produced and how fast the data needs to be
+processed to meet the demand.
+The other two dimensions that need to consider with respect to Big Data are Variability and
+Complexity [5].
+d) Variability: Along with the Velocity, the d
+peaks.
+e) Complexity: Complexity of the data also needs to be considered when the data is coming from
+multiple sources. The data must be linked, matched, cleansed and transformed into required
+formats before actual processing.
+Technologies today not only support the collection of large amounts of
+utilizing such data effectively.
+transactions made all over the world with respect to a Bank, Walmart customer transactions, and
+Facebook users generating social interaction data.
+When making an attempt to understand the concept of Big Data, the words
+and “Hadoop” cannot be avoided
+believed to be originated from the Web search
+Volume - storing transaction
+– from traditional databases, text documents,
+ow data flows can be highly inconsistent with periodic
+fore data, but
+Some of the real time examples of Big Data are Credit card
+Fig2. Big Data
+erstand such as “Map Reduce”
+avoided.
+47
+data, live
+ata also help in
+International Journal of Network Security & Its Applications (IJNSA), Vol.6, No.3, May 2014
+48
+1.3 Hadoop
+Hadoop, which is a free, Java-based programming framework supports the processing of large
+sets of data in a distributed computing environment. It is a part of theApacheproject sponsored by
+the Apache Software Foundation. Hadoop cluster uses a Master/Slave structure [6]. Using
+Hadoop, large data sets can be processed across a cluster of servers and applications can be run on
+systems with thousands of nodes involving thousands ofterabytes. Distributed file system in
+Hadoop helps in rapid data transfer rates and allows the system to continue its normal operation
+even in the case of some node failures. This approach lowers the risk of an entire system failure,
+even in the case of a significant number of node failures. Hadoop enables a computing solution
+that is scalable, cost effective, flexible and fault tolerant. Hadoop Framework is used by popular
+companies like Google, Yahoo, Amazon and IBM etc., to support their applications involving
+huge amounts of data. Hadoop has two main sub projects – Map Reduce and Hadoop Distributed
+File System (HDFS).
+1.4 Map Reduce
+Hadoop Map Reduce is a framework [7] used to write applications that process large amounts of
+data in parallel on clusters of commodity hardware resources in a reliable, fault-tolerant manner.
+A Map Reduce job first divides the data into individual chunks which are processed by Map jobs
+in parallel. The outputs of the maps sorted by the framework are then input to the reduce tasks.
+Generally the input and the output of the job are both stored in a file-system. Scheduling,
+Monitoring and re-executing failed tasks are taken care by the framework.
+1.5 H
